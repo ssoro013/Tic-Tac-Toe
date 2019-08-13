@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>Tic Tac Toe Table</p>
+        <p id="reset"> Reset
+            <!-- <form>
+                <button type="submit" id="reset">Reset!</button>
+            </form> -->
+        </p>
+        <form id="playerX">
+            <input type="text">
+            <button type="submit">Player X</button>
+        </form>
+        
+        <form id="palyerO">
+            <input type="text">
+            <button type="submit">Player O</button>
+        </form>
+        <table id="rc">
+            <tbody>
+                <tr id="r1">
+                    <td id="r1c1" class="grid"> </td>
+                    <td id="r1c2" class="grid"> </td>
+                    <td id="r1c3" class="grid"> </td>
+                </tr>
+                
+                <tr id="r2">
+                    <td id="r2c1" class="grid"> </td>
+                    <td id="r2c2" class="grid"> </td>
+                    <td id="r2c3" class="grid"> </td>
+                </tr>
+                
+                <tr id="r3">
+                    <td id="r3c1" class="grid"> </td>
+                    <td id="r3c2" class="grid"> </td>
+                    <td id="r3c3" class="grid"> </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+
+                </tr>
+            </tfoot>
+        </table>
+        <script type= 'text/javascript' src="app.js"></script>
+        <p id="player1">Player1:</p>
+        <p id="player2">Player2:</p>
+        <p id="tally" class="tally">Game Tally:</p>
+    </body>
+</html>

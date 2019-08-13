@@ -1,0 +1,16 @@
+.grid {
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    color: red;
+    border: 20px solid black;
+    width: 100px;
+    height: 100px;
+
+}
+
+.tally {
+    font-size: 20px;
+    margin: auto;
+    color:blue;
+}
