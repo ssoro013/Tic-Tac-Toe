@@ -130,8 +130,8 @@ function currentWinner(arr){
     }
 }
 
-var elementx = document.getElementById("playerX")
-var playerx = document.getElementById("player1")
-elementx.addEventListener('submit', function addName() {
-    playerx.firstChild.nodeValue = `${elementx.firstChild.nodeValue}`
-}, false)
+// var elementx = document.getElementById("playerX")
+// var playerx = document.getElementById("player1")
+// elementx.addEventListener('submit', function addName() {
+//     playerx.firstChild.nodeValue = `${elementx.firstChild.nodeValue}`
+// }, false)
